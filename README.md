@@ -1,0 +1,2 @@
+- The program reads the matrix from "input.dat" file, solves eigenvalue problem for the matrix and prints eigenvalues in the form (real, imag)
+- sample_output.dat contains the program output for some matrix
