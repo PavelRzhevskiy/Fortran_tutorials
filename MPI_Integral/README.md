@@ -2,3 +2,4 @@
 - Trapezoidal rule is used
 - script.sh executes the program for different number of processes and redirects output to file
 - Option --oversubscribe is used because my laptop cannot run the task with np >=5 (though it have 10 cores and 12 threads)
+- Times for different number of processes is plotted [here](https://colab.research.google.com/drive/1gZokXCisbC9paf7upkB0crHlB6hzkXwI?usp=sharing)
