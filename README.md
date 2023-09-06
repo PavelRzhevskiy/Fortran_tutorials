@@ -6,7 +6,7 @@
 ### Eigens_Makefile
 
 - The same program with subroutines reading matrix from file, finding eigenvalues, and printing eigenvalues in a seperate module
-- The makefile contaitns two builds with release and debug modes
+- The Makefile contains two builds with release and debug modes
 
 ### MPI_Integral
 
