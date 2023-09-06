@@ -1,0 +1,4 @@
+- The work is divided among processes via slicing chunks parralel to X-planes
+- Trapezoidal rule is used
+- script.sh executes the program for different number of processes and redirects output to file
+- Option --oversubscribe is used because my laptop cannot run the task with np >=5 (though it have 10 cores and 12 threads)

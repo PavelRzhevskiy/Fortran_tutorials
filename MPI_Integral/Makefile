@@ -1,19 +1,17 @@
-FC=gfortran
+FC=mpif90
 FFLAGS=-Wall -Wextra -Wimplicit-interface -fmax-errors=1
-FLIBS=-llapack
-
-SRC=workmodule.f90 main.f90
+SRC=Integral.f90
 
 #debug settings
 DBGDIR=debug
-DBGTRG=$(DBGDIR)/eigen_dbg
-DBGOBJ=${SRC:%.f90=debug/%.o}
+DBGTRG=$(DBGDIR)/integral_debug
+DBGOBJ=${SRC:%.f90=$(DBGDIR)/%.o}
 DBGFLAGS=-Og -g -fbacktrace -fcheck=all -ffpe-trap=zero,overflow -finit-real=NaN
 
 #release settings
 RELDIR=release
-RELTRG=$(RELDIR)/eigen_rel
-RELOBJ=${SRC:%.f90=release/%.o}
+RELTRG=$(RELDIR)/integral_release
+RELOBJ=${SRC:%.f90=$(RELDIR)/%.o}
 RELFLAGS=-O3 -funroll-loops -ffast-math -march=native 
 
 #debig build
