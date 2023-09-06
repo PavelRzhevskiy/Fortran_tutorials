@@ -1,5 +1,5 @@
 - The work is divided among processes via slicing chunks parralel to X-planes
 - Trapezoidal rule is used
 - script.sh executes the program for different number of processes and redirects the output to file "sample_output.dat"
-- Option --oversubscribe is used because my laptop cannot run the task with np >~5 (though it have 10 cores and 12 threads)
+- Option `--oversubscribe` is used because my laptop cannot run the task with np >~5 (though it have 10 cores and 12 threads)
 - Times for different number of processes are plotted [here](https://colab.research.google.com/drive/1gZokXCisbC9paf7upkB0crHlB6hzkXwI?usp=sharing)
