@@ -10,4 +10,10 @@
 
 ### MPI_Integral
 
-- The program calculates the 3D integral in rectangular area with openMPI 
+- The program calculates a particulat 3D integral in rectangular area with openMPI 
+- Domain is divided between processes in chunks parallel to x-planes
+
+### MPI_Integral_V2
+
+- Another implementation of the program with the most uniform distribution of domain among processes
+- Each point of the domain is referenced through the one index only. But i,j,k are recalculated on each iteration
