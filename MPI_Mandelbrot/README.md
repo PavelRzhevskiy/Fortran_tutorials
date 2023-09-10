@@ -9,6 +9,6 @@
   - Logging (time of execution, number of iterations per each process)
 
 - This division of tasks among process is fairly uniform: e.g. for 16 processes, step of coarse grid = 0.01 and step of fine grid = 0.001, the difference in the number of operations performed by each process is ~1 % (that can be seen from the _program_output.dat_)
-- To see, how the rquired time chanhges, script _script.sh_ runs mpirun several times with different # of processes
+- To see, how the required time changes, script _script.sh_ runs mpirun several times with different # of processes
 
 - The [script](https://colab.research.google.com/drive/1wOJS__zrkOwJ6hAYOHo74vvqNVbHQov7?usp=sharing) in python to draw Mandelbrot set
