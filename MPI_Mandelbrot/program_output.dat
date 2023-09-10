@@ -1,0 +1,47 @@
+Program output
+np =  1
+ myrank =            0 total number of iterations =             418915298
+ Average elapsed time =   0.84052105499999996       +-    2.4336306692670112E-009
+
+np =  2
+ myrank =            1 total number of iterations =             209446961
+ myrank =            0 total number of iterations =             209468337
+ Average elapsed time =   0.45254068450000001       +-    7.8436749998778046E-004
+
+np =  4
+ myrank =            0 total number of iterations =             104623398
+ myrank =            1 total number of iterations =             104844939
+ myrank =            2 total number of iterations =             104828044
+ myrank =            3 total number of iterations =             104618917
+ Average elapsed time =   0.29122056749999997       +-    3.7439056404516904E-002
+
+np =  8
+ myrank =            5 total number of iterations =              52432112
+ myrank =            0 total number of iterations =              52235179
+ myrank =            3 total number of iterations =              52412805
+ myrank =            7 total number of iterations =              52218735
+ myrank =            2 total number of iterations =              52432134
+ myrank =            4 total number of iterations =              52396187
+ myrank =            1 total number of iterations =              52388474
+ myrank =            6 total number of iterations =              52399672
+ Average elapsed time =   0.17067042137499999       +-    1.3738840829953799E-002
+
+np =  16
+ myrank =           13 total number of iterations =              26247754
+ myrank =           10 total number of iterations =              26246307
+ myrank =           11 total number of iterations =              26186060
+ myrank =           15 total number of iterations =              26010892
+ myrank =            8 total number of iterations =              26188841
+ myrank =           14 total number of iterations =              26206313
+ myrank =            6 total number of iterations =              26221931
+ myrank =            1 total number of iterations =              26200076
+ myrank =            3 total number of iterations =              26146067
+ myrank =            2 total number of iterations =              26242662
+ myrank =            4 total number of iterations =              26182402
+ myrank =            0 total number of iterations =              26035358
+ myrank =            5 total number of iterations =              26249987
+ myrank =            9 total number of iterations =              26207601
+ myrank =           12 total number of iterations =              26152173
+ myrank =            7 total number of iterations =              26190874
+ Average elapsed time =   0.12343444131249999       +-    3.9599914886388796E-002
+

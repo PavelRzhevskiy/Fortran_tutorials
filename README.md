@@ -17,3 +17,8 @@
 
 - Another implementation of the program with the most uniform distribution of domain among processes
 - Each point of the domain is referenced through the one index only. But i,j,k are recalculated on each iteration
+
+### MPI_Mandelbrot
+
+- The program scans the complex plane in a given range to test whether a point belongs to a Mandelbrot Set
+- The program is parallelized,and the job size for each process is determined via pre-scan with a coarse step
